@@ -1,0 +1,10 @@
+1. I use MySQL
+2. I choose MySQL insted of using NoSQL because:
+- Ensure data integrity through constraints such as primary keys, foreign keys and complex relationships between entities
+such as customer, agency, admin, product, cart, transaction, and billing
+- MySQL easily allows perform complex queries to retrieve data from multiple tables at once.
+- Ensure data consistency through mechanisms such as ACID (Atomicity, Consistency, Isolation, Durability).
+So, It is suitable for type transaction.
+
+The weak point of MySQL:
+- horizontal scaling can be more complex than NoSQL because constrants
